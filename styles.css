@@ -1,0 +1,58 @@
+body{
+    display: flex;
+    flex-direction: column;
+ background-color: #dcdcdc;
+    align-items: center;
+}
+
+.general{
+    position:relative ;
+    flex-direction: column;}
+
+
+h1{
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    margin-left:15px;
+    background-color: white ;
+    position: absolute ;
+    margin-top: 1px
+
+}
+p{ 
+    color: black;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:10px;
+    margin-left:15px;
+}
+
+#numerador{
+   font-weight: bold;
+    text-align: right;
+    color: #999; 
+}
+
+.miImagen{
+    width: 500px;
+    height: 300px;
+    margin-left:15px;
+    margin-right:15px;
+    background-image: white ;}
+
+#img1, #img2, #img3 { 
+    background-color: #fff;
+    border: 20px solid #ddd;
+    padding: 10px;
+
+   
+}
+#header{
+    border:1px solid #ddd ;
+}
+#section{   
+    border:1px solid #ddd ;}
